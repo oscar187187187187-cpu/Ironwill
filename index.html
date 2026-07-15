@@ -190,7 +190,7 @@
         function updateStreakDisplay() {
             const now = Date.now();
             const diffMs = now - state.streakStart;
-            const GROQ_API_KEY = '"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"';
+            const GROQ_API_KEY = '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';
             if (diffMs < 0) {
                 document.getElementById('streak-days').innerText = "0";
                 document.getElementById('streak-time-sub').innerText = "00:00:00";
